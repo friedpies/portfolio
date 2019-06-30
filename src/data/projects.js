@@ -25,6 +25,34 @@ const projects = [
       "https://kjmporfolio.nyc3.digitaloceanspaces.com/projects/la_java/thumbnail.png",
     gallery: [],
     video: "null"
+  },
+  {
+    name: "Djangocaster",
+    thumbnail:
+      "https://kjmporfolio.nyc3.digitaloceanspaces.com/projects/djangocaster/thumbnail.jpg",
+    gallery: [],
+    video: "null"
+  },
+  {
+    name: "Furniture",
+    thumbnail:
+      "https://kjmporfolio.nyc3.digitaloceanspaces.com/projects/furniture/thumbnail.jpg",
+    gallery: [],
+    video: "null"
+  },
+  {
+    name: "Word Clock",
+    thumbnail:
+      "https://kjmporfolio.nyc3.digitaloceanspaces.com/projects/word_clock/thumbnail.jpg",
+    gallery: [],
+    video: "null"
+  },
+  {
+    name: "Proximidi",
+    thumbnail:
+      "https://kjmporfolio.nyc3.digitaloceanspaces.com/projects/proximidi/thumbnail.gif",
+    gallery: [],
+    video: "null"
   }
 ];
 
