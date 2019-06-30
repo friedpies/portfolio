@@ -1,14 +1,13 @@
 .project-thumbnail {
   display: inline-block;
   border: 1px solid red;
-  // width: 150px;
+  width: 30%;
 
   #project-name {
     position: absolute;
-    top: 50%;
   }
 
   img {
-    object-fit: cover;
+    width: 100%;
   }
 }
