@@ -1,5 +1,5 @@
 import React from "react";
-import '../../styles/assets/SocialIcons.scss';
+import "../styles/assets/SocialIcons.scss";
 
 const InstagramIcon = props => (
   <svg viewBox="0 0 64 64" {...props}>

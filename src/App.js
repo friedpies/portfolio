@@ -1,16 +1,24 @@
 import React from "react";
 import Navigation from "./components/Navigation";
-import Splash from "./components/Splash";
-import About from "./components/About";
+import Splash from "./pages/Splash";
+import About from "./pages/About";
+import Work from "./pages/Work";
+import Workshop from "./pages/Workshop";
+
 import { BrowserRouter, Route } from "react-router-dom";
 import "./styles/App.scss";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Route exact path="/" render={() => <Splash />} />
-      <Route exact path="/about" render={() => <About />} />
-    </BrowserRouter>
+    <>
+      <Navigation />
+      <BrowserRouter>
+        <Route exact path="/" render={() => <Splash />} />
+        <Route exact path="/about" render={() => <About />} />
+        <Route exact path="/work" render={() => <Work />} />
+        <Route exact path="/workshop" render={() => <Workshop />} />
+      </BrowserRouter>
+    </>
   );
 }
 
