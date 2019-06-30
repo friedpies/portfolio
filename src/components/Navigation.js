@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 
 const Navigation = () => (
   <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-    <Navbar.Brand href="#home">Kenneth Marut</Navbar.Brand>
+    <Navbar.Brand href="/">Kenneth Marut</Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav>

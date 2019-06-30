@@ -1,5 +1,6 @@
 import React from "react";
-import ProjectListItem from "../components/ProjectListItem";
+import projects from "../data/projects";
+import ProjectThumbnail from "../components/ProjectThumbnail";
 
 const Work = props => (
   <div className="content-container">
@@ -7,10 +8,13 @@ const Work = props => (
     <div>
       <h2>WORK</h2>
       <h3>FEATURED PROJECTS THAT I'VE WORKED ON</h3>
-      <ProjectListItem />
-      <ProjectListItem />
-      <ProjectListItem />
-      <ProjectListItem />
+      {projects.map(({ name, thumbnail }) => {
+        let projectProps = {
+          name,
+          thumbnail
+        };
+        return <ProjectThumbnail {...projectProps} />;
+      })}
     </div>
     <div />
   </div>
