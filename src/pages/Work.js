@@ -1,23 +1,46 @@
-import React from "react";
+import React, { Component } from "react";
+import Filters from "../components/Filters";
 import projects from "../data/projects";
 import ProjectThumbnail from "../components/ProjectThumbnail";
+import "../styles/Work.scss";
 
-const Work = props => (
-  <div className="content-container">
-    <div />
-    <div>
-      <h2>WORK</h2>
-      <h3>FEATURED PROJECTS THAT I'VE WORKED ON</h3>
-      {projects.map(({ name, thumbnail }) => {
-        let projectProps = {
-          name,
-          thumbnail
-        };
-        return <ProjectThumbnail {...projectProps} />;
-      })}
-    </div>
-    <div />
-  </div>
-);
+class Work extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      projects: projects
+    };
+
+    this.onCheck = this.onCheck.bind(this);
+  }
+
+  onCheck(event) {
+    console.log(event.target);
+  }
+
+  render() {
+    return (
+      <div className="content-container">
+        <div />
+        <div>
+          <h2>WORK</h2>
+          <h3>FEATURED PROJECTS THAT I'VE WORKED ON</h3>
+          <Filters onCheck={this.onCheck} />
+          <div id="project-list">
+            {this.state.projects.map(({ name, thumbnail }, key) => {
+              let projectProps = {
+                key,
+                name,
+                thumbnail
+              };
+              return <ProjectThumbnail {...projectProps} />;
+            })}
+          </div>
+        </div>
+        <div />
+      </div>
+    );
+  }
+}
 
 export default Work;
