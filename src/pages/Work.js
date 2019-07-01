@@ -8,6 +8,12 @@ class Work extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      filters: {
+        software: false,
+        electrical: false,
+        mechanical: false,
+        sideProject: false
+      },
       projects: projects
     };
 
@@ -15,7 +21,7 @@ class Work extends Component {
   }
 
   onCheck(event) {
-    console.log(event.target);
+    console.log(event.target.checked);
   }
 
   render() {
