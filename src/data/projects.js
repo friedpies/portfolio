@@ -1,6 +1,7 @@
 const projects = [
   {
     name: "Moon Germs",
+    url: "moongerms",
     thumbnail:
       "https://kjmporfolio.nyc3.digitaloceanspaces.com/projects/moon_germs/thumbnail.gif",
     video: "https://youtu.be/npFgwcqw3Ks",
@@ -13,6 +14,7 @@ const projects = [
   },
   {
     name: "GloPhones",
+    url: "glophones",
     thumbnail:
       "https://kjmporfolio.nyc3.digitaloceanspaces.com/projects/glophones/thumbnail.gif",
     gallery: [],
@@ -26,6 +28,7 @@ const projects = [
   },
   {
     name: "Bredboard",
+    url: "bredboard",
     thumbnail:
       "https://kjmporfolio.nyc3.digitaloceanspaces.com/projects/bredboard/thumbnail.gif",
     gallery: [],
@@ -39,6 +42,7 @@ const projects = [
   },
   {
     name: "La Java",
+    url: "lajava",
     thumbnail:
       "https://kjmporfolio.nyc3.digitaloceanspaces.com/projects/la_java/thumbnail.png",
     gallery: [],
@@ -52,6 +56,7 @@ const projects = [
   },
   {
     name: "Djangocaster",
+    url: "djangocaster",
     thumbnail:
       "https://kjmporfolio.nyc3.digitaloceanspaces.com/projects/djangocaster/thumbnail.jpg",
     gallery: [],
@@ -65,6 +70,7 @@ const projects = [
   },
   {
     name: "Furniture",
+    url: "furniture",
     thumbnail:
       "https://kjmporfolio.nyc3.digitaloceanspaces.com/projects/furniture/thumbnail.jpg",
     gallery: [],
@@ -78,6 +84,7 @@ const projects = [
   },
   {
     name: "Word Clock",
+    url: "wordclock",
     thumbnail:
       "https://kjmporfolio.nyc3.digitaloceanspaces.com/projects/word_clock/thumbnail.jpg",
     gallery: [],
@@ -91,6 +98,7 @@ const projects = [
   },
   {
     name: "Proximidi",
+    url: "proximidi",
     thumbnail:
       "https://kjmporfolio.nyc3.digitaloceanspaces.com/projects/proximidi/thumbnail.gif",
     gallery: [],
@@ -104,6 +112,7 @@ const projects = [
   },
   {
     name: "Astronomical Clock",
+    url: "astronomicalclock",
     thumbnail:
       "https://kjmporfolio.nyc3.digitaloceanspaces.com/projects/astronomical_clock/thumbnail.gif",
     gallery: [],
@@ -117,6 +126,7 @@ const projects = [
   },
   {
     name: "Rival Road",
+    url: "rivalroad",
     thumbnail:
       "https://kjmporfolio.nyc3.digitaloceanspaces.com/projects/rival_road/thumbnail.gif",
     gallery: [],
@@ -130,6 +140,7 @@ const projects = [
   },
   {
     name: "Podium",
+    url: "podium",
     thumbnail:
       "https://kjmporfolio.nyc3.digitaloceanspaces.com/projects/podium/thumbnail.gif",
     gallery: [],
@@ -143,6 +154,7 @@ const projects = [
   },
   {
     name: "Fieldtrip to Mars",
+    url: "marsbus",
     thumbnail:
       "https://kjmporfolio.nyc3.digitaloceanspaces.com/projects/fieldtrip_to_mars/thumbnail.gif",
     gallery: [],
@@ -156,6 +168,7 @@ const projects = [
   },
   {
     name: "SELFIE Mirror",
+    url: "selfie",
     thumbnail:
       "https://kjmporfolio.nyc3.digitaloceanspaces.com/projects/selfie_mirror/thumbnail.gif",
     gallery: [],
@@ -169,6 +182,7 @@ const projects = [
   },
   {
     name: "Dorothy",
+    url: "dorothy",
     thumbnail:
       "https://kjmporfolio.nyc3.digitaloceanspaces.com/projects/dorothy/thumbnail.gif",
     gallery: [],
@@ -182,6 +196,7 @@ const projects = [
   },
   {
     name: "Facebook Mentions",
+    url: "facebookmentions",
     thumbnail:
       "https://kjmporfolio.nyc3.digitaloceanspaces.com/projects/facebook_mentions/thumbnail.jpg",
     gallery: [],
@@ -195,6 +210,7 @@ const projects = [
   },
   {
     name: "Social Cooler",
+    url: "socialcooler",
     thumbnail:
       "https://kjmporfolio.nyc3.digitaloceanspaces.com/projects/social_cooler/thumbnail.gif",
     gallery: [],
@@ -208,6 +224,7 @@ const projects = [
   },
   {
     name: "Social Dash",
+    url: "socialdash",
     thumbnail:
       "https://kjmporfolio.nyc3.digitaloceanspaces.com/projects/social_dash/thumbnail.gif",
     gallery: [],
@@ -221,6 +238,7 @@ const projects = [
   },
   {
     name: "Trigger Pad",
+    url: "triggerpad",
     thumbnail:
       "https://kjmporfolio.nyc3.digitaloceanspaces.com/projects/trigger_pad/thumbnail.gif",
     gallery: [],
@@ -234,6 +252,7 @@ const projects = [
   },
   {
     name: "Baby Bug",
+    url: "babybug",
     thumbnail:
       "https://kjmporfolio.nyc3.digitaloceanspaces.com/projects/baby_bug/thumbnail.jpg",
     gallery: [],
@@ -247,6 +266,7 @@ const projects = [
   },
   {
     name: "Cyro",
+    url: "cyro",
     thumbnail:
       "https://kjmporfolio.nyc3.digitaloceanspaces.com/projects/cyro/thumbnail.gif",
     gallery: [],
@@ -260,6 +280,7 @@ const projects = [
   },
   {
     name: "Cyro V2",
+    url: "cyro2",
     thumbnail:
       "https://kjmporfolio.nyc3.digitaloceanspaces.com/projects/cyro_v2/thumbnail.gif",
     gallery: [],
@@ -273,6 +294,7 @@ const projects = [
   },
   {
     name: "JetPRo",
+    url: "jetpro",
     thumbnail:
       "https://kjmporfolio.nyc3.digitaloceanspaces.com/projects/jetpro/thumbnail.gif",
     gallery: [],
@@ -286,6 +308,7 @@ const projects = [
   },
   {
     name: "Siphonobot",
+    url: "siphonobot",
     thumbnail:
       "https://kjmporfolio.nyc3.digitaloceanspaces.com/projects/siphonobot/thumbnail.gif",
     gallery: [],

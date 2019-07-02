@@ -3,6 +3,7 @@ import Navigation from "./components/Navigation";
 import Splash from "./pages/Splash";
 import About from "./pages/About";
 import Work from "./pages/Work";
+import Project from "./pages/Project";
 import Workshop from "./pages/Workshop";
 
 import { BrowserRouter, Route } from "react-router-dom";
@@ -14,9 +15,10 @@ function App() {
       <Navigation />
       <BrowserRouter>
         <Route exact path="/" render={() => <Splash />} />
-        <Route exact path="/about" render={() => <About />} />
-        <Route exact path="/work" render={() => <Work />} />
-        <Route exact path="/workshop" render={() => <Workshop />} />
+        <Route path="/about" render={() => <About />} />
+        <Route path="/work" render={() => <Work />} />
+        <Route path="/workshop" render={() => <Workshop />} />
+        <Route path="/:project" component={Project} />
       </BrowserRouter>
     </>
   );
