@@ -18,6 +18,7 @@ class Work extends Component {
       "filtered projects": projects
     };
     this.onCheck = this.onCheck.bind(this);
+    this.onProjectClick = this.onProjectClick.bind(this);
   }
 
   onCheck(event) {
@@ -27,6 +28,10 @@ class Work extends Component {
       newState[key] = [newState[key][0], !newState[key][1]];
       return { filters: prevState.filters };
     });
+  }
+
+  onProjectClick(name) {
+    console.log(name);
   }
 
   render() {
@@ -62,7 +67,8 @@ class Work extends Component {
         let projectProps = {
           key,
           name,
-          thumbnail
+          thumbnail,
+          onProjectClick: this.onProjectClick
         };
         return <ProjectThumbnail {...projectProps} />;
       });
