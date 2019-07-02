@@ -52,9 +52,21 @@ class Work extends Component {
       });
     };
 
-    console.log(
-      filterProjects(this.state.projects, getCheckedFilters(this.state.filters))
-    );
+    const renderProjects = () => {
+      const checkedFilters = getCheckedFilters(this.state.filters);
+      const filteredProjects = filterProjects(
+        this.state.projects,
+        checkedFilters
+      );
+      return filteredProjects.map(({ name, thumbnail }, key) => {
+        let projectProps = {
+          key,
+          name,
+          thumbnail
+        };
+        return <ProjectThumbnail {...projectProps} />;
+      });
+    };
 
     return (
       <div className="content-container">
@@ -63,16 +75,7 @@ class Work extends Component {
           <h2>WORK</h2>
           <h3>FEATURED PROJECTS THAT I'VE WORKED ON</h3>
           <Filters filters={this.state.filters} onCheck={this.onCheck} />
-          <div id="project-list">
-            {this.state.projects.map(({ name, thumbnail }, key) => {
-              let projectProps = {
-                key,
-                name,
-                thumbnail
-              };
-              return <ProjectThumbnail {...projectProps} />;
-            })}
-          </div>
+          <div id="project-list">{renderProjects()}</div>
         </div>
         <div />
       </div>
