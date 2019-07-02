@@ -13,15 +13,14 @@ class Work extends Component {
         electrical: false,
         mechanical: false,
         sideProject: false
-      },
-      projects: projects
+      }
     };
 
     this.onCheck = this.onCheck.bind(this);
   }
 
   onCheck(event) {
-    console.log(event.target.checked);
+    console.log(event.target.value);
   }
 
   render() {
@@ -31,9 +30,12 @@ class Work extends Component {
         <div>
           <h2>WORK</h2>
           <h3>FEATURED PROJECTS THAT I'VE WORKED ON</h3>
-          <Filters onCheck={this.onCheck} />
+          <Filters
+            filterNames={Object.keys(this.state.filters)}
+            onCheck={this.onCheck}
+          />
           <div id="project-list">
-            {this.state.projects.map(({ name, thumbnail }, key) => {
+            {projects.map(({ name, thumbnail }, key) => {
               let projectProps = {
                 key,
                 name,
