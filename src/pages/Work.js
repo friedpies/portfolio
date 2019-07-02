@@ -58,12 +58,10 @@ class Work extends Component {
         this.state.projects,
         checkedFilters
       );
-      return filteredProjects.map(({ name, thumbnail, url }, key) => {
+      return filteredProjects.map((project, key) => {
         let projectProps = {
           key,
-          name,
-          thumbnail,
-          url
+          project
         };
         return <ProjectThumbnail {...projectProps} />;
       });
