@@ -8,7 +8,7 @@ const projects = [
       software: true,
       electrical: true,
       mechanical: true,
-      sideProject: true
+      "side projects": true
     }
   },
   {
@@ -21,7 +21,7 @@ const projects = [
       software: true,
       electrical: true,
       mechanical: true,
-      sideProject: true
+      "side projects": true
     }
   },
   {
@@ -34,7 +34,7 @@ const projects = [
       software: false,
       electrical: true,
       mechanical: true,
-      sideProject: true
+      "side projects": true
     }
   },
   {
@@ -47,7 +47,7 @@ const projects = [
       software: false,
       electrical: false,
       mechanical: true,
-      sideProject: true
+      "side projects": true
     }
   },
   {
@@ -60,7 +60,7 @@ const projects = [
       software: false,
       electrical: false,
       mechanical: true,
-      sideProject: true
+      "side projects": true
     }
   },
   {
@@ -73,7 +73,7 @@ const projects = [
       software: false,
       electrical: false,
       mechanical: true,
-      sideProject: true
+      "side projects": true
     }
   },
   {
@@ -86,7 +86,7 @@ const projects = [
       software: true,
       electrical: true,
       mechanical: true,
-      sideProject: true
+      "side projects": true
     }
   },
   {
@@ -99,7 +99,7 @@ const projects = [
       software: true,
       electrical: true,
       mechanical: true,
-      sideProject: true
+      "side projects": true
     }
   },
   {
@@ -112,7 +112,7 @@ const projects = [
       software: false,
       electrical: true,
       mechanical: true,
-      sideProject: false
+      "side projects": false
     }
   },
   {
@@ -125,7 +125,7 @@ const projects = [
       software: true,
       electrical: true,
       mechanical: true,
-      sideProject: false
+      "side projects": false
     }
   },
   {
@@ -138,7 +138,7 @@ const projects = [
       software: true,
       electrical: true,
       mechanical: true,
-      sideProject: false
+      "side projects": false
     }
   },
   {
@@ -151,7 +151,7 @@ const projects = [
       software: false,
       electrical: false,
       mechanical: true,
-      sideProject: false
+      "side projects": false
     }
   },
   {
@@ -164,7 +164,7 @@ const projects = [
       software: true,
       electrical: true,
       mechanical: true,
-      sideProject: false
+      "side projects": false
     }
   },
   {
@@ -177,7 +177,7 @@ const projects = [
       software: false,
       electrical: true,
       mechanical: true,
-      sideProject: false
+      "side projects": false
     }
   },
   {
@@ -190,7 +190,7 @@ const projects = [
       software: false,
       electrical: false,
       mechanical: true,
-      sideProject: false
+      "side projects": false
     }
   },
   {
@@ -203,7 +203,7 @@ const projects = [
       software: true,
       electrical: true,
       mechanical: true,
-      sideProject: false
+      "side projects": false
     }
   },
   {
@@ -216,7 +216,7 @@ const projects = [
       software: true,
       electrical: true,
       mechanical: true,
-      sideProject: false
+      "side projects": false
     }
   },
   {
@@ -229,7 +229,7 @@ const projects = [
       software: true,
       electrical: true,
       mechanical: true,
-      sideProject: false
+      "side projects": false
     }
   },
   {
@@ -242,7 +242,7 @@ const projects = [
       software: false,
       electrical: false,
       mechanical: true,
-      sideProject: false
+      "side projects": false
     }
   },
   {
@@ -255,7 +255,7 @@ const projects = [
       software: true,
       electrical: true,
       mechanical: true,
-      sideProject: false
+      "side projects": false
     }
   },
   {
@@ -268,7 +268,7 @@ const projects = [
       software: true,
       electrical: true,
       mechanical: true,
-      sideProject: false
+      "side projects": false
     }
   },
   {
@@ -281,7 +281,7 @@ const projects = [
       software: true,
       electrical: true,
       mechanical: true,
-      sideProject: false
+      "side projects": false
     }
   },
   {
@@ -294,7 +294,7 @@ const projects = [
       software: true,
       electrical: true,
       mechanical: true,
-      sideProject: false
+      "side projects": false
     }
   }
 ];
