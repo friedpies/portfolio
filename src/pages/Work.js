@@ -14,7 +14,8 @@ class Work extends Component {
         ["mechanical", false],
         ["side projects", false]
       ],
-      projects: projects
+      projects: projects,
+      "filtered projects": projects
     };
     this.onCheck = this.onCheck.bind(this);
   }
@@ -43,7 +44,6 @@ class Work extends Component {
 
       return projects.filter(project => {
         for (let i = 0; i < checkedFilters.length; i++) {
-          // this line only checks for one filter,
           if (!project.filters[checkedFilters[i][0]]) {
             return false;
           }
