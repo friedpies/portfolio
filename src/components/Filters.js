@@ -1,19 +1,19 @@
 import React from "react";
 import { Form } from "react-bootstrap";
 
-const Filters = ({ filterNames, onCheck }) => {
-  console.log(filterNames);
+const Filters = ({ filters, onCheck }) => {
+  // console.log(filterNames);
   return (
     <Form>
       <div key={`custom-inline-checkbox`} className="mb-3">
-        {filterNames.map((filter, index) => (
+        {filters.map((filter, index) => (
           <Form.Check
             key={index}
             custom
             inline
-            label={filter}
-            value={filter}
-            checked={onCheck}
+            label={filter[0]}
+            value={index}
+            checked={filter[1]}
             type="checkbox"
             onChange={onCheck}
             id={`custom-inline-checkbox-${index}`}
