@@ -18,7 +18,7 @@ function App() {
         <Route path="/about" render={() => <About />} />
         <Route path="/work" render={() => <Work />} />
         <Route path="/workshop" render={() => <Workshop />} />
-        <Route path="/:project" component={Project} />
+        <Route exact path="/projects/:project" component={Project} />
       </BrowserRouter>
     </>
   );
