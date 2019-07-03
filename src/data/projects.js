@@ -311,7 +311,25 @@ const projects = [
     url: "siphonobot",
     thumbnail:
       "https://kjmporfolio.nyc3.digitaloceanspaces.com/projects/siphonobot/thumbnail.gif",
-    gallery: [],
+    gallery: [
+      {
+        original: "",
+        thumbnail: ""
+      },
+      {
+        original: "",
+        thumbnail: ""
+      },
+      {
+        original: "",
+        thumbnail: ""
+      },
+      {
+        original: "",
+        thumbnail: ""
+      }
+    ],
+
     video: "null",
     filters: {
       software: true,
