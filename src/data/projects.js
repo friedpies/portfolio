@@ -168,7 +168,7 @@ const projects = [
   },
   {
     name: "SELFIE Mirror",
-    url: "selfie",
+    url: "selfiemirror",
     thumbnail:
       "https://kjmporfolio.nyc3.digitaloceanspaces.com/projects/selfie_mirror/thumbnail.gif",
     gallery: [],
@@ -297,8 +297,18 @@ const projects = [
     url: "jetpro",
     thumbnail:
       "https://kjmporfolio.nyc3.digitaloceanspaces.com/projects/jetpro/thumbnail.gif",
-    gallery: [],
-    video: "null",
+    about:
+      "In conjunction with large, rowing jellyfish robots, I also developed jetting jellyfish robots during my time in graduate school. Jetting jellyfish utilize a different mode of propulsion compared to rowers and are smaller in size. Shown below are different robotic platforms I developed which utilize jetting propulsion. This form of jetting propulsion was the subject of my masters thesis.",
+    role: [
+      "Mechanical Design",
+      "Fabrication",
+      "Waterproof Design",
+      "Electronics",
+      "Firmware",
+      "Experimental Design",
+      "Testing"
+    ],
+    video: "https://youtu.be/Dkw4UTiy4aQ",
     filters: {
       software: true,
       electrical: true,
@@ -311,26 +321,36 @@ const projects = [
     url: "siphonobot",
     thumbnail:
       "https://kjmporfolio.nyc3.digitaloceanspaces.com/projects/siphonobot/thumbnail.gif",
-    gallery: [
-      {
-        original: "",
-        thumbnail: ""
-      },
-      {
-        original: "",
-        thumbnail: ""
-      },
-      {
-        original: "",
-        thumbnail: ""
-      },
-      {
-        original: "",
-        thumbnail: ""
-      }
+    about:
+      "The Siphonobot is a underwater robot based on the Siphonophore, a multi-organism sea creature that uses multi-jet propulsion to achieve locomotion. The robot consists of silicone jetting propulsors actuated by servo motors. Each propulsor can be triggered individually to achieve various jetting gaits.",
+    role: [
+      "R&D",
+      "Mechanical Design",
+      "Fabrication",
+      "Testing",
+      "Experimental Design"
     ],
-
     video: "null",
+    filters: {
+      software: true,
+      electrical: true,
+      mechanical: true,
+      "side projects": false
+    }
+  },
+  {
+    name: "Hooha",
+    url: "hooha",
+    thumbnail:
+      "https://kjmporfolio.nyc3.digitaloceanspaces.com/projects/hooha/thumbnail.gif",
+    role: [
+      "R&D",
+      "Mechanical Design",
+      "Fabrication",
+      "Testing",
+      "Experimental Design"
+    ],
+    video: "https://youtu.be/bUWbsdupwVc",
     filters: {
       software: true,
       electrical: true,
