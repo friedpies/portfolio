@@ -4,15 +4,15 @@ import Nav from "react-bootstrap/Nav";
 
 const Navigation = () => (
   <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-    <Navbar.Brand href="#home">Kenneth Marut</Navbar.Brand>
+    <Navbar.Brand href="/">Kenneth Marut</Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav>
-        <Nav.Link href="#about">ABOUT</Nav.Link>
-        <Nav.Link eventKey={2} href="#work">
+        <Nav.Link href="/about">ABOUT</Nav.Link>
+        <Nav.Link eventKey={2} href="/work">
           WORK
         </Nav.Link>
-        <Nav.Link eventKey={2} href="#workshop">
+        <Nav.Link eventKey={2} href="/workshop">
           WORKSHOP
         </Nav.Link>
       </Nav>

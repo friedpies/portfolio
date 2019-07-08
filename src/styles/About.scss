@@ -1,0 +1,12 @@
+@import "./Mixins.scss";
+
+.content-container {
+  #about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #about-details {
+
+  }
+}
