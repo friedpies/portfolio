@@ -19,7 +19,7 @@
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.87.2",
     "shufflejs": "^5.2.2",
-    "xml-to-json-promise": "0.0.3"
+    "xml-js": "^1.6.11"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const path = require("path");
 const axios = require("axios");
-var convert = require("xml-to-json-promise");
+var xmlConvert = require("xml-js");
 const port = process.env.PORT;
 
 app.use(express.static(path.join("build")));
@@ -18,7 +18,19 @@ app.get("/api/images/:project", (req, res) => {
 
   axios
     .get("https://kjmporfolio.nyc3.digitaloceanspaces.com/", queryParams)
-    .then(({ data }) => res.json(data));
+    .then(({ data }) => {
+      const convertedData = JSON.parse(
+        xmlConvert.xml2json(data, {
+          compact: true,
+          spaces: 4
+        })
+      );
+      const contents = convertedData.ListBucketResult.Contents;
+      const files = contents.map(element => {
+        return element["Key"]["_text"];
+      });
+      res.json(files);
+    });
 });
 
 app.listen(port, () => {
